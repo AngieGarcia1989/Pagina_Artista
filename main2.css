@@ -1,0 +1,90 @@
+body {
+    background-image: url('imagenestareas/log1.jpg');
+    background-repeat: no-repeat;   
+    background-attachment: scroll;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+   position:relative;
+   
+   
+}
+
+header {
+    
+    width: 100%;
+    
+    background: rgb(122, 17, 98);
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+.cuadro {
+     width:100px;
+     height:100px;
+     background-color: greenyellow;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.Redes {  
+  
+   width: 100%;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.Redes li{
+
+    display:inline-block;
+}
+.Redes li a {
+
+    padding:10px 20px;
+    color:#000 ;
+}
+
+.Redes li a:hover {
+
+    border-radius: 50%;
+    background: rgb(236, 106, 206);
+    color:#340744
+    
+}
+
+a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size:15px ;
+    text-decoration:none;
+    margin:20px 20px;
+    display:block;
+    background: rgb(236, 23, 130);
+    color: #000;
+    padding:5px 5px;
+    box-shadow:0px 4px 0px rgb(117, 17, 67);
+        }
+    
+    a:hover{
+       
+        background: rgb(204, 110, 180);
+    }
+    
+    a:active {
+        box-shadow:none;
+    }
+    
+.header2{
+    position: fixed;
+}
+    
